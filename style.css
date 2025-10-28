@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #121212; /* [cite: 52] */
+    color: #fff; /* [cite: 53] */
+    display: flex; /* [cite: 54] */
+    justify-content: center; /* [cite: 55] */
+    align-items: center; /* [cite: 56] */
+    height: 100vh; /* [cite: 57] */
+}
+
+.login-container {
+    background-color: #1f1f1f; /* [cite: 60] */
+    padding: 30px; /* [cite: 61] */
+    border-radius: 10px; /* [cite: 62] */
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.1); /* [cite: 63] */
+    width: 300px; /* [cite: 64] */
+}
+
+.login-container input {
+    width: 100%; /* [cite: 67] */
+    margin: 10px 0; /* [cite: 68] */
+    padding: 10px; /* [cite: 69] */
+    border: none; /* [cite: 70] */
+    border-radius: 5px; /* [cite: 71] */
+}
+
+button {
+    width: 100%; /* [cite: 73] */
+    padding: 10px; /* [cite: 74] */
+    background-color: #2303dac6; /* [cite: 75] */
+    color: #000; /* [cite: 76] */
+    border: none; /* [cite: 77] */
+    border-radius: 5px; /* [cite: 79] */
+    font-weight: bold; /* [cite: 80] */
+    cursor: pointer; /* [cite: 81] */
+}
+
+button:hover {
+    background-color: #00bfa5; /* [cite: 84] */
+}
+
+#mensagem {
+    margin-top: 10px; /* [cite: 86] */
+    color: #ff5252; /* [cite: 87] */
+    font-weight: bold; /* [cite: 88] */
+}
